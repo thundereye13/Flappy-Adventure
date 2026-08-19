@@ -1,100 +1,100 @@
-🐦 Flappy Adventure
+# 🐦 Flappy Adventure
 
-    A 2D arcade game built with Unity and C#.
+A 2D arcade game developed with **Unity 6.3 LTS** and **C#**.
 
-🎮 About
+Flappy Adventure is a fast-paced obstacle-avoidance game where the player controls a bird, flies through pipes, avoids collisions, and tries to achieve the highest possible score.
 
-    Flappy Adventure is a 2D arcade game inspired by classic
-    flap-and-dodge gameplay.
+## 🎮 Gameplay
 
-    The player controls a bird and must navigate through
-    randomly generated pipes while avoiding collisions.
+The game starts with a simple menu and becomes progressively challenging as the player continues flying.
 
-    The game features multiple environments, progressive
-    difficulty, scoring, high scores, sound effects,
-    background music, and Android touch controls.
+### Features
 
-✨ Features
+- 🐦 Physics-based bird movement
+- 🟢 Pipe spawning and movement system
+- 💥 Collision detection and Game Over system
+- 🏆 Score and persistent High Score
+- 📈 Progressive difficulty
+- 🌄 Multiple environments
+- 🎵 Background music
+- 🔊 Gameplay sound effects
+- 🔄 Restart system
+- ⌨️ Keyboard controls
+- 📱 Android touch controls
+- 🖥️ Landscape orientation support
 
-🐦 Physics-based bird movement
-⌨️ Keyboard controls
-📱 Android touch controls
-🟩 Random pipe spawning
-💥 Collision detection
-🏆 Score system
-🥇 Persistent high score
-🔄 Restart system
-🌄 Moving backgrounds
-🌍 Multiple environments
-⚡ Progressive difficulty
-🔊 Sound effects
-🎵 Background music
-🎮 Game Over system
+## 🎮 Controls
 
-🌍 Environments
+### PC
 
-The game contains multiple environments:
+`Space` → Flap
 
-🌄 Mountain
-🏜️ Desert
-🌙 Graveyard
-❄️ Snow
+### Android
 
-The game progressively becomes faster as the environment
-changes.
+`Tap the screen` → Flap
 
-🛠️ Built With
+## 🛠️ Built With
 
-Unity 6.3 LTS
-C#
-Unity Input System
-Rigidbody2D
-TextMeshPro
-Unity Audio System
-PlayerPrefs
+- Unity 6.3 LTS
+- C#
+- Unity 2D Physics
+- Unity Input System
+- TextMeshPro
+- Unity Audio System
 
-🎮 Controls
+## 📱 Platform
 
-PC
+- Android
+- Windows / PC development build
 
-Press Space → Flap
+## 📸 Screenshots
 
-Android
+### Start Screen
 
-Tap the screen → Flap
+![Start Screen](Screenshots/start-screen.png)
 
-📸 Screenshots
+### Gameplay
 
-Screenshots will be added soon.
+![Gameplay](Screenshots/gameplay.png)
 
-🚀 How to Run
+### Game Over
 
-1. Clone this repository.
-2. Open the project using Unity 6.3 LTS.
-3. Open the main game scene.
-4. Press Play.
+![Game Over](Screenshots/game-over.png)
 
-📱 Android
+## 📥 Download
 
-An Android APK will be provided through the
-GitHub Releases section.
+### Android APK
 
-📚 What I Learned
+Download the latest Android build from the GitHub Releases page:
 
-Unity 2D physics
-Rigidbody2D movement
-Collision and trigger handling
-Procedural pipe spawning
-UI management
- Audio integration
-Mobile touch input
-Scene management
-Persistent data using PlayerPrefs
-Game state management
+👉 **[Download Flappy Adventure](https://github.com/thundereye13/Flappy-Adventure/releases/latest)**
 
-👨‍💻 Developer
+### itch.io
 
-   Harshit Shukla
+Play/download the game from itch.io:
 
+👉 **[Flappy Adventure on itch.io](https://thundereye13.itch.io/flappy-adventure)**
 
-⭐ Thanks for checking out the project!
+## 📂 Project Structure
+
+```text
+Flappy-Adventure/
+│
+├── Assets/
+│   ├── Scenes/
+│   ├── Scripts/
+│   ├── Prefabs/
+│   ├── Audio/
+│   ├── Sprites/
+│   └── ...
+│
+├── Packages/
+├── ProjectSettings/
+├── Screenshots/
+│   ├── start-screen.png
+│   ├── gameplay.png
+│   └── game-over.png
+│
+├── README.md
+├── .gitignore
+└── LICENSE
