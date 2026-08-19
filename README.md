@@ -98,3 +98,23 @@ Flappy-Adventure/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+
+
+This project was created as a practical Unity and C# game-development project to learn and implement:
+
+Game physics
+Player input
+Collision systems
+Object spawning
+Game state management
+UI systems
+Audio integration
+Score persistence
+Android deployment
+
+
+👨‍💻 Developer
+
+Harshit Shukla
+
+GitHub: @thundereye13
